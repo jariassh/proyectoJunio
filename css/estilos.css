@@ -6,15 +6,8 @@ body {
     background-size: cover;
 }
 
-.title h3 {
-    margin-top: 70px;
-    margin-bottom: 80px;
-
-}
-
 .main-section{
     margin: 0 auto;
-    /* margin-top: 130px; */
     padding: 0px;
 
 }
@@ -84,5 +77,46 @@ button {
     color: white;
 }
 
-@media (min-width: )
+@media (min-width: 1367px) {
+    .title h3 {
+        margin-top: 170px;
+        margin-bottom: 90px;
+    }
+        
+}
 
+@media (max-width: 1366px) and (min-width: 1200px) {
+    .title h3 {
+        margin-top: 100px;
+        margin-bottom: 90px;
+    }
+        
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .title h3 {
+        margin-top: 100px !important;
+        margin-bottom: 90px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .title h3 {
+        margin-top: 100px !important;
+        margin-bottom: 90px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+    .title h3 {
+        margin-top: 100px !important;
+        margin-bottom: 90px;
+    }
+}
+
+@media (max-width: 575px) {
+    .title h3 {
+        margin-top: 100px;
+        margin-bottom: 90px;
+    }
+}
