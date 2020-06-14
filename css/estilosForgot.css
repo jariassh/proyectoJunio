@@ -34,6 +34,7 @@ body {
 
 .icons p{
     color: #fff;
+    text-align: justify;
 }
 
 .icons input{
@@ -70,6 +71,7 @@ body {
 .icons input:focus + i{
     color: dodgerblue;
 }
+
 
 button {
     width: 60%;
@@ -269,7 +271,7 @@ button {
     }
 
     .main-section{
-        margin: 0 auto 80px;
+        margin: 0 auto 100px;
         padding: 0px;
     
     }
