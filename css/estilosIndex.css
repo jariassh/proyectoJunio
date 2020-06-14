@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url(../img/images1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.modal-content{
+    background-color: #3b4652 !important;
+    opacity: .85;
+    padding: 0 18px;
+    box-shadow: 0px 0px 4px #848484;
+}
+
+.user-img{
+    margin-top: -50px;
+    margin-bottom: 35px;
+}
+
+.user-img img {
+    height: 100px;
+    width: 100px;
+    box-shadow: 0px 0px 4px #848484;
+    border-radius: 50%;
+}
+
+.icons input{
+    text-align: center;
+    height: 42px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 18px;
+    padding-left: 40px;
+    
+}
+
+.icons input:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.icons {
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.icons i {
+    font-size: 22px;
+    position: absolute;
+    left: 8px;
+    top: 12px;
+    padding: 9px, 8px;
+    color: #aaa;
+    transition: .3s;
+
+}
+
+.icons input:focus + i{
+    color: dodgerblue;
+}
+
+button {
+    width: 60%;
+    margin: 10px 0 5px 0 !important;
+}
+
+.forgot {
+    padding: 20px 0;
+}
+
+.forgot a {
+    color: white;
+}
+
+.forgot a:hover {
+    color: white;
+}
+
+@media (min-width: 1367px) {
+    .title h3 {
+        font-size: 2em;
+        font-weight: bold;
+        margin-top: 100px;
+        margin-bottom: 90px;
+    }
+
+    .main-section{
+        margin: 0 auto 110px;
+        padding: 0px;
+    
+    }
+
+    footer {
+        width: 100%;
+        height: 80px;
+        background-color: #3b4652;
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        padding: 25px;
+    }
+
+    footer p {
+        font-size: 18px;
+    }
+    
+    footer a {
+        font-size: 18px;
+        color: #fff;
+    }
+        
+}
+
+@media (max-width: 1366px) and (min-width: 1200px) {
+    .title h3 {
+        font-size: 2,5em;
+        font-weight: bold;
+        margin-top: 40px;
+        margin-bottom: 90px;
+    }
+
+    .main-section{
+        margin: 0 auto 110px;
+        padding: 0px;
+    
+    }
+
+    footer {
+        width: 100%;
+        height: 80px;
+        background-color: #3b4652;
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        padding: 25px;
+    }
+
+    footer p {
+        font-size: 18px;
+    }
+    
+    footer a {
+        font-size: 18px;
+        color: #fff;
+    }
+        
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .title h3 {
+        font-size: 2,5em;
+        font-weight: bold;
+        margin-top: 40px !important;
+        margin-bottom: 70px;
+    }
+
+    .main-section{
+        margin: 0 auto 110px;
+        padding: 0px;
+    
+    }
+
+    footer {
+        width: 100%;
+        height: 80px;
+        background-color: #3b4652;
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        padding: 25px;
+    }
+
+    footer p {
+        font-size: 18px;
+    }
+    
+    footer a {
+        font-size: 18px;
+        color: #fff;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .title h3 {
+        font-size: 2,5em;
+        font-weight: bold;
+        margin-top: 40px !important;
+        margin-bottom: 90px;
+    }
+
+    .main-section{
+        margin: 0 auto 110px;
+        padding: 0px;
+    
+    }
+
+    footer {
+        width: 100%;
+        height: 80px;
+        background-color: #3b4652;
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        padding: 25px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+    
+    footer a {
+        font-size: 15px;
+        color: #fff;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+    .title h3 {
+        font-size: 2,5em;
+        font-weight: bold;
+        margin-top: 40px !important;
+        margin-bottom: 70px;
+    }
+
+    .main-section{
+        margin: 0 auto 110px;
+        padding: 0px;
+    
+    }
+
+    footer {
+        width: 100%;
+        height: 80px;
+        background-color: #3b4652;
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        padding: 25px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+    
+    footer a {
+        font-size: 15px;
+        color: #fff;
+    }
+}
+
+@media (max-width: 575px) {
+    .title h3 {
+        font-size: 2,5em;
+        font-weight: bold;
+        margin-top: 40px;
+        margin-bottom: 70px;
+    }
+
+    .main-section{
+        margin: 0 auto 80px;
+        padding: 0px;
+    
+    }
+
+    .optionsLogin a{
+        font-size: 12px;
+    }
+
+    footer {
+        width: 100%;
+        height: 80px;
+        background-color: #3b4652;
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        padding: 25px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+    
+    footer a {
+        font-size: 12px;
+        color: #fff;
+    }
+}
