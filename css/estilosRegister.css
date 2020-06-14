@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+html {
+    min-height: 100%;
+    position: relative;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background: url(../img/images1.jpg) no-repeat center center fixed;
     background-size: cover;
-}
-
-.main-section{
-    margin: 0 auto;
-    padding: 0px;
-
+    margin: 0;
+    margin-bottom: 40px;
 }
 
 .modal-content{
@@ -111,15 +112,23 @@ footer a:hover {
         margin-bottom: 40px;
     }
 
+    .main-section{
+        margin: 0 auto 110px;
+        padding: 0px;
+    
+    }
+
     .row2 {
         margin-top: -10px;
     }
 
     footer {
+        width: 100%;
         height: 80px;
         background-color: #3b4652;
         color: #fff;
-        margin-top: 70px;
+        position: absolute;
+        bottom: 0;
         padding: 25px;
     }
 
@@ -142,15 +151,23 @@ footer a:hover {
         margin-bottom: 30px;
     }
 
+    .main-section{
+        margin: 0 auto 110px;
+        padding: 0px;
+    
+    }
+
     .row2 {
         margin-top: -10px;
     }
 
     footer {
+        width: 100%;
         height: 80px;
         background-color: #3b4652;
         color: #fff;
-        margin-top: 60px;
+        position: absolute;
+        bottom: 0;
         padding: 25px;
     }
 
@@ -173,15 +190,23 @@ footer a:hover {
         margin-bottom: 30px;
     }
 
+    .main-section{
+        margin: 0 auto 110px;
+        padding: 0px;
+    
+    }
+
     .row2 {
         margin-top: -10px;
     }
 
     footer {
+        width: 100%;
         height: 80px;
         background-color: #3b4652;
         color: #fff;
-        margin-top: 58px;
+        position: absolute;
+        bottom: 0;
         padding: 25px;
     }
 
@@ -203,15 +228,23 @@ footer a:hover {
         margin-bottom: 25px;
     }
 
+    .main-section{
+        margin: 0 auto 110px;
+        padding: 0px;
+    
+    }
+
     .row2 {
         margin-top: -10px;
     }
 
     footer {
+        width: 100%;
         height: 80px;
         background-color: #3b4652;
         color: #fff;
-        margin-top: 44px;
+        position: absolute;
+        bottom: 0;
         padding: 25px;
     }
 
@@ -233,6 +266,12 @@ footer a:hover {
         margin-bottom: 25px;
     }
 
+    .main-section{
+        margin: 0 auto 110px;
+        padding: 0px;
+    
+    }
+
     .icons#name-group {
         margin-top: 25px;
     }
@@ -242,10 +281,12 @@ footer a:hover {
     }
 
     footer {
+        width: 100%;
         height: 80px;
         background-color: #3b4652;
         color: #fff;
-        margin-top: 44px;
+        position: absolute;
+        bottom: 0;
         padding: 25px;
     }
 
@@ -267,6 +308,12 @@ footer a:hover {
         margin-bottom: 25px;
     }
 
+    .main-section{
+        margin: 0 auto 110px;
+        padding: 0px;
+    
+    }
+
     .icons#name-group {
         margin-top: 25px;
     }
@@ -276,11 +323,13 @@ footer a:hover {
     }
 
     footer {
+        width: 100%;
         height: 80px;
         background-color: #3b4652;
         color: #fff;
-        margin-top: 44px;
-        padding: 30px 20px;
+        position: absolute;
+        bottom: 0;
+        padding: 25px;
     }
 
     footer p {
