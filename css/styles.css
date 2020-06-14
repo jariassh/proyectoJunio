@@ -81,10 +81,6 @@ p {
     margin-right: auto;
 }
 
-/* .row2 {
-    margin-top: -10px;
-} */
-
 
 button {
     width: 60%;
@@ -102,15 +98,6 @@ button {
 .forgot a:hover {
     color: white;
 }
-
-/* footer p {
-    font-size: 18px;
-}
-
-footer a {
-    font-size: 18px;
-    color: #fff;
-} */
 
 footer a:hover {
     color: #fff;

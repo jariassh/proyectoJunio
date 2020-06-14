@@ -6,7 +6,7 @@
     <title>NCR APP TOOLS</title>    
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">    
+    <script src="https://kit.fontawesome.com/29f215aa7a.js" crossorigin="anonymous"></script>    
 </head>
 <body></body>
 
@@ -20,16 +20,18 @@
                     <img src="img/userImg.png" alt="">
                 </div>
                 <form class="col-12">
-                    <div class="form-group" id="user-group">
+                    <div class="icons" id="user-group">
                         <input type="text" class="form-control" placeholder="Username" name="username" autocomplete="off">
+                        <i class="fas fa-user fa-lg fa-fw" aria-hidden="true"></i>
                     </div>
-                    <div class="form-group" id="password-group">
+                    <div class="icons" id="password-group">
                         <input type="password" class="form-control" placeholder="Password" name="password">
+                        <i class="fas fa-user-lock fa-lg fa-fw" aria-hidden="true"></i>
                     </div>                    
                     <button type="submit" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i>    Sing In</button>                    
                 </form>
 
-                <div class="col-12 forgot d-flex justify-content-between">
+                <div class="col-12 forgot d-flex justify-content-between optionsLogin">
                     <a href="pages/register.html">Sing Up</a>
                     <a href="#">Forgot your password?</a>
                 </div>
@@ -38,13 +40,19 @@
         </div>
     </div>
 
+    <footer>
+        <div class=" d-flex justify-content-between">
+            <p>Copyright &copy All Right Reserved</p>
+            <a href="index.html">NCR Corporation</a>
+        </div>
+    </footer>
 
 
 
 
     
 
-    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
